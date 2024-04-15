@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbg"
+    tools:context=".EditUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:text="@string/editUser"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/etbg"
+            android:hint="@string/newUsername"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textDirection="rtl"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/etbg"
+            android:hint="@string/newEmail"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textDirection="rtl"/>
+
+
+
+
+        <!--    <com.google.android.material.textfield.TextInputLayout-->
+        <!--        android:id="@+id/etPassword"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_margin="@dimen/_16sdp"-->
+        <!--        app:endIconMode="password_toggle"-->
+        <!--        app:endIconTint="@color/blue"-->
+        <!--        app:counterEnabled="true"-->
+        <!--        app:counterMaxLength="20"-->
+        <!--        app:boxBackgroundMode="outline"-->
+        <!--        app:boxBackgroundColor="#CFE8FC"-->
+        <!--        app:counterTextColor="@color/blue"-->
+        <!--        android:textColorHint="@color/blue"-->
+        <!--        app:boxStrokeColor="@color/blue"-->
+        <!--        app:boxStrokeErrorColor="@color/red"-->
+        <!--        android:hint="@string/password">-->
+
+
+
+        <!--        <com.google.android.material.textfield.TextInputEditText-->
+        <!--            android:id="@+id/etPassword1"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:inputType="textPassword"-->
+        <!--            android:textSize="@dimen/_14sdp"-->
+        <!--            android:backgroundTint="@android:color/transparent"-->
+        <!--            android:textDirection="rtl"-->
+        <!--            />-->
+
+        <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/etbg"
+            android:hint="@string/newPassword"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textAlignment="textEnd"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textDirection="rtl"/>
+
+
+
+        <CheckBox
+            android:id="@+id/cbPasswordlength"
+            android:button="@drawable/checkbox_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:clickable="false"
+            android:layoutDirection="rtl"
+            android:paddingStart="@dimen/_5sdp"
+            android:text="@string/passwordLength"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbPasswordCharacter"
+            android:button="@drawable/checkbox_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:clickable="false"
+            android:layoutDirection="rtl"
+            android:paddingStart="@dimen/_5sdp"
+            android:text="@string/passwordCharacters"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbPasswordNumber"
+            android:button="@drawable/checkbox_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:clickable="false"
+            android:layoutDirection="rtl"
+            android:paddingStart="@dimen/_5sdp"
+            android:text="@string/passwordNumber"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEdit"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/editUser"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

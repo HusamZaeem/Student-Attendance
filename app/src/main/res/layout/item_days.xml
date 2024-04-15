@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cvDays"-->
+<!--        android:layout_width="@dimen/_40sdp"-->
+<!--        android:layout_height="@dimen/_40sdp"-->
+<!--        android:layout_margin="@dimen/_12sdp"-->
+<!--        app:cardBackgroundColor="@android:color/transparent"-->
+<!--        app:cardCornerRadius="@dimen/_8sdp"-->
+<!--        app:cardElevation="@dimen/_1sdp"-->
+<!--        app:cardMaxElevation="@dimen/_1sdp"-->
+<!--        >-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvDay"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="@dimen/_16sdp"-->
+<!--            android:textColor="@color/blue"-->
+<!--            />-->
+
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cvDays"
+        android:layout_width="@dimen/_37sdp"
+        android:layout_height="@dimen/_37sdp"
+        android:layout_margin="@dimen/_8sdp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="@dimen/_1sdp"
+        app:cardBackgroundColor="@color/item_color"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="@dimen/_1sdp"
+        android:clickable="true"
+        app:cardMaxElevation="@dimen/_1sdp">
+
+        <TextView
+            android:id="@+id/tvDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/white"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
