@@ -1,5 +1,10 @@
 Attendance Management App
 
+
+https://github.com/HusamZaeem/Student-Attendance/assets/132781178/a9c0e4ed-9510-4f46-8aa6-fef152de504f
+
+
+
 This Android application is designed to help manage attendance records for students across various subjects. It provides features for administrators to add and delete subjects, manage student information, record attendance, and view attendance statistics.
 
 Features:
